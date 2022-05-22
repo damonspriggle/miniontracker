@@ -12,12 +12,8 @@ const connection = mysql.createConnection({
 });
 
 connection.connect(function (err) {
-    if (err) {
-        console.log('Not connected to database');
-        throw err;
-    } else {
-        console.log('Connected to database');
-    }
+    if (err) throw err;
+  firstPrompt();
 });
 
 function firstPrompt(){
@@ -123,7 +119,7 @@ function viewEmployeesByDepartment(){
     getDept(deptChoices);
   });
 }
-//GET DEPARTMENT
+// departments
 function getDept(deptChoices){
     inquirer
         .prompt([
@@ -155,7 +151,7 @@ function getDept(deptChoices){
     })
 }
 
-//ADD AN EMPLOYEE
+// add employee
 function addEmployee() {
     let query = 
     `SELECT 
