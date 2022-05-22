@@ -14,7 +14,7 @@ employees, roles or departments as well. When adding a new employee, the user ca
 Adding or removing data updates the table accordingly.
 
 VIDEO EXAMPLE:
-![Video](Untitled_ May 22 2022 2_46 PM.webm)
+![Video](exampleminions.webm)
 
 ALTERNATE LINK TO VIDEO EXAMPLE:
 https://youtu.be/4pvC7CuG85Y
